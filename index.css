@@ -1,0 +1,79 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1F293A;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/******************/
+/**** Header*******/
+/******************/
+
+.header {
+    padding: 1em 0;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.header-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-picker {
+    width: 61px;
+    padding: 1em;
+}
+
+input#currentColor {
+    height: 40px;
+}
+
+.color-mode-selector {
+    border: 1px solid #D1D5DB;
+    width: 60%;
+    border-radius: 6px;
+    
+}
+
+.color-mode {
+    width: 100%;
+    padding: .5em 1em;
+    background-color: #1F293A;
+    color: #fff;
+} 
+
+
+#color-btn {
+    background-color: #3D4B60;
+    font-weight: 700;
+    font-size: .75rem;
+    width: 150px;
+    padding: 1em .75em;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+
+/******************/
+/** Color Blocks **/
+/******************/
+
+
+.color-palette {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    color: #fff;
+    text-align: center;
+}
+
+.colors {
+    height: 90vh;
+}
